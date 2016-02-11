@@ -1,0 +1,5 @@
+{
+  "ambientDependencies": {
+    "ionic": "github:DefinitelyTyped/DefinitelyTyped/ionic/ionic.d.ts#a4b718b3d818418d505562ef659b30e162769125"
+  }
+}
