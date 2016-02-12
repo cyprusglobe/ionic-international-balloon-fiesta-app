@@ -6,7 +6,7 @@ module.exports = {
     path.normalize('es6-shim/es6-shim.min'),
     'reflect-metadata',
     path.normalize('zone.js/dist/zone-microtask'),
-    path.resolve('app/app')
+    path.resolve('app/app.ts')
   ],
   output: {
     path: path.resolve('www/build/js'),
@@ -41,7 +41,8 @@ module.exports = {
       'app'
     ],
     alias: {
-      'angular2': path.resolve('node_modules/angular2')
+      'angular2': path.resolve('node_modules/angular2'),
+      'ionic': 'ionic-framework',
     },
     extensions: ["", ".js", ".ts"]
   }

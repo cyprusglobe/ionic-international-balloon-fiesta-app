@@ -1,0 +1,24 @@
+$categories: (
+ dawn_patrol: map-get($colors, primary),
+ m_glow: #AC282B,
+ ceremonies: #FE4C52,
+ glow: #FD8B2D,
+ assention: #FED035,
+ workshop: #69BB7B,
+ food: #3BC7C4,
+ documentation: #B16BE3,
+ navigation: #6600CC,
+);
+
+@function auxiliary-categories() {
+  @return map-remove($categories);
+}
+
+.schedule {
+  @each $track, $value in auxiliary-categories() {
+   ion-item-sliding[track=#{$track}] ion-label {
+     border-left: 2px solid $value;
+     padding-left: 10px;
+   }
+  }
+}

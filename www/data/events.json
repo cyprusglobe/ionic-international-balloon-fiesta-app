@@ -1,0 +1,109 @@
+{
+  "schedule": [
+    {
+      "groups": [
+        {
+          "date": "2016-10-01",
+          "events": [
+            {
+              "uuid": "83a752b8-24cb-4a08-9553-81a75dee9b21",
+              "name": "Dawn Patrol Show",
+              "timeStart": "6:00 am",
+              "description": "presented by Route 66 Casino Hotel",
+              "tracks": [
+                "Dawn_Patrol"
+              ]
+            },
+            {
+              "uuid": "3c76e132-d3bc-407d-b659-13d2c45ec3f6",
+              "name": "Morning Glow",
+              "timeStart": "6:30 am",
+              "description": "Morning Glow",
+              "tracks": [
+                "M_Glow"
+              ]
+            },
+            {
+              "uuid": "61e33107-049f-43e9-9e37-70f4ae1b871a",
+              "name": "Opening Ceremonies",
+              "timeStart": "6:45 am",
+              "description": "Opening Ceremonies",
+              "tracks": [
+                "Ceremonies"
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2016-10-02",
+          "events": [
+            {
+              "uuid": "c8d845e3-1a59-4aac-9467-c19e5cc071b8",
+              "name": "Opening Ceremonies",
+              "timeStart": "6:45 am",
+              "description": "Opening Ceremonies",
+              "tracks": [
+                "Ceremonies"
+              ]
+            },
+            {
+              "uuid": "b16ea78c-51d3-4377-bc1f-240cbb2d27eb",
+              "name": "Breakfast",
+              "timeStart": "8:00 am",
+              "description": "Balloon Glow",
+              "tracks": [
+                "Glow"
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2016-10-03",
+          "events": [
+            {
+              "uuid": "95a4c7b7-af08-470a-b7af-c617a8256d84",
+              "name": "Breakfast",
+              "timeStart": "8:00 am",
+              "description": "Mass Assention",
+              "tracks": [
+                "Assention"
+              ]
+            },
+            {
+              "uuid": "d783f62d-5681-412b-9f96-2498dfe6e896",
+              "name": "Breakfast",
+              "timeStart": "8:00 am",
+              "description": "Balloon Glow",
+              "tracks": [
+                "Glow"
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2016-10-04",
+          "events": [
+            {
+              "uuid": "467c782c-f6cc-4c65-bc69-059de6cce34a",
+              "name": "Breakfast",
+              "timeStart": "8:00 am",
+              "description": "Mass Assention",
+              "tracks": [
+                "Assention"
+              ]
+            },
+            {
+              "uuid": "6899c023-0d64-414a-9f56-953f0555c898",
+              "name": "Breakfast",
+              "timeStart": "8:00 am",
+              "description": "Balloon Glow",
+              "tracks": [
+                "Glow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
