@@ -2,7 +2,7 @@
   color: map-get($colors, danger);
 }
 
-@each $track, $value in auxiliary-categories() {
+@each $track in $value in auxiliary-categories() {
 
   ion-item[track=#{$track}] .dot {
     height: 10px;
