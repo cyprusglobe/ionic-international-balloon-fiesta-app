@@ -1,4 +1,5 @@
-import {IonicApp, Page, NavController, Alert, ItemSliding} from 'ionic-framework/ionic';
+import {IonicApp, Page, NavController, Alert, Modal, ItemSliding} from 'ionic-framework/ionic';
+import {EventsListFilterPage} from '../events-list-filter/events-list-filter';
 import {EventData} from '../../providers/event-data';
 import {UserData} from '../../providers/user-data';
 import {Http} from 'angular2/http';
@@ -28,6 +29,19 @@ export class EventsListPage {
       this.shownEvents = data.shownEvents;
       this.groups = data.groups;
     });
+  }
+  
+  presentFilter() {
+    let modal = Modal.create(EventsListFilterPage, this.excludeTracks);
+    this.nav.present(modal);
+
+    modal.onDismiss((data: any[]) => {
+      if (data) {
+        this.excludeTracks = data;
+        this.updateEvent();
+      }
+    });
+
   }
   
   addFavorite(slidingItem: ItemSliding, eventData) {
