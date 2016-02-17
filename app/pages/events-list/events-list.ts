@@ -1,5 +1,6 @@
 import {IonicApp, Page, NavController, Alert, Modal, ItemSliding} from 'ionic-framework/ionic';
 import {EventsListFilterPage} from '../events-list-filter/events-list-filter';
+import {EventDetailPage} from '../event-detail/event-detail';
 import {EventData} from '../../providers/event-data';
 import {UserData} from '../../providers/user-data';
 import {Http} from 'angular2/http';
@@ -41,7 +42,10 @@ export class EventsListPage {
         this.updateEvent();
       }
     });
-
+  }
+  
+  goToEventDetail(eventData) {
+    this.nav.push(EventDetailPage, eventData);
   }
   
   addFavorite(slidingItem: ItemSliding, eventData) {

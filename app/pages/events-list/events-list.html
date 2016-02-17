@@ -31,7 +31,7 @@
 
             <ion-item-sliding *ngFor="#event of group.events" #slidingItem [attr.track]="event.tracks[0] | lowercase" [hidden]="event.hide">
 
-                <button ion-item text-wrap>
+                <button ion-item text-wrap (click)="goToEventDetail(event)">
                     <h3>{{event.name}}</h3>
                     <p>
                         {{event.description}} &mdash; {{event.timeStart}}
