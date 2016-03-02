@@ -1,4 +1,4 @@
-import {Page} from 'ionic-framework/ionic';
+import {Page, NavController} from 'ionic-angular';
 import {PilotData} from '../../providers/pilot-data';
 
 @Page({

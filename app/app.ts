@@ -1,4 +1,4 @@
-import {App, IonicApp, Platform} from 'ionic-framework/ionic';
+import {App, IonicApp, Platform} from 'ionic-angular';
 import {EventData} from './providers/event-data';
 import {UserData} from './providers/user-data';
 import {PilotData} from './providers/pilot-data';

@@ -1,4 +1,4 @@
-import {IonicApp, Page, NavController, Alert, Modal, ItemSliding} from 'ionic-framework/ionic';
+import {IonicApp, Page, NavController, Alert, Modal, ItemSliding} from 'ionic-angular';
 import {EventsListFilterPage} from '../events-list-filter/events-list-filter';
 import {EventDetailPage} from '../event-detail/event-detail';
 import {EventData} from '../../providers/event-data';
